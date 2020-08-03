@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title> Pedro Vilar - Site de Apresentação Pessoal</title>
+		<meta name="description" content=" Estudante de Análise e Desenvolvimento de Sistemas, com foco em aplicações Web.">
+		<meta name="keywords" content="Apresentação, Desenvolvimento, Sites">
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="Pedro Vilar">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+		<!-- font-family: 'Source Sans Pro', sans-serif; -->
+		<link rel="icon" href="img/icon.png">
+		<!-- viewport -->
+
+	</head>
+	<body>
+		<!-- Cabeçalho -->
+		<header class="cabecalho container">
+			<a href="index.html">
+				<h1 class="logo">Pedro Vilar - Site de Apresentação Pessoal</h1>
+			</a>
+			<button class="btn-menu bg-gradient"> <i class="fa fa-bars fa-lg"></i></button>
+			<nav class="menu">
+				<a class="btn-close"><i class="fa fa-times"></i></a>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Clientes</a></li>
+					<li><a href="#">Serviços</a></li>
+					<li><a href="#">História</a></li>
+					<li><a href="#">Contatos</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--Banner-->
+		<div class="banner container">
+			<div class="title">
+				<h2>Colossenses 3:23-24</h2>
+				<h3>E tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor, e não aos homens,
+					sabendo que recebereis do Senhor o galardão da herança, porque a Cristo, o Senhor, servis.
+				</h3>
+			</div>
+			<!--Botões-->
+			<div class="buttons">
+				<button class="btn"> Cadastrar <i class="fa fa-arrow-circle-right"></i></button>
+				<button class="btn btn-sobre"> Sobre <i class="fa fa-question-circle"></i> </button>
+			</div>	
+		</div>
+		<!-- Serviços -->
+		<main class="servicos container">
+			<article class="servico">
+				<a href="#">
+					<img src="img/criacoes2.jpg" alt="Sistemas Web">
+				</a>
+				<!-- Serviços 01 -->
+				<div class="inner">
+					<a href="#"> Software para Web</a>
+					<h4>Site, Blogs e Sistemas</h4>
+					<p> Se você está precisando de criação de algum site com o cunho, pessoal, profissional, comercial, etc... Pode entrar em contato com a gente, para que possamos fazer o levantamento de requisitos e a elaboração prévia do seu site.  	
+					</p>
+				</div>
+			</article>
+			<article class="servico">
+				<a href="#">
+					<img src="img/fullstack.jpg" alt="Full Stack">
+				</a>
+				<!-- Serviços 02 -->
+				<div class="inner">
+					<a href="#"> Desenvolvimento Full Stack</a>
+					<h4>Site/sistemas do front ao back-end.</h4>
+					<p> Designers e elaborações de sites e/ou softwares com levantamento de requisitos e reuniões com o Product Owner, para melhor adequação e produção do projeto. 
+					</p>
+				</div>
+			</article>
+			<article class="servico">
+				<a href="#">
+					<img src="img/pv.jpg" alt="PV. Desenvolvedor">
+				</a>
+				<!-- Serviços 03 -->
+				<div class="inner">
+					<a href="#"> PV. Desenvolvedor</a>
+					<h4>Layouts responsivos</h4>
+					<p>Esse é um site teste em que eu fiz para medir meu nivel com programação web, optei por um layout responsivo, onde o site se enquadra e se ajusta as dimensões dos aparelhos em que ele for aberto.  	
+					</p>
+				</div>
+			</article>
+		</main>
+		<!-- NEWSLETTER -->
+		<section class="newsletter container">
+			<h2> Faça seu orçamento! </h2>
+			<h3> Receba uma prévia do seu design. </h3>
+			<form>
+				<input type="email" name="email" placeholder="Seu email:">
+				<button> Cadastrar </buttson>
+			</form>
+		</section>
+		<!-- RODAPÉ -->
+		<footer class="rodape container bg-gradient">
+			<div class="social-icons">
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+			</div>
+			<p class="copyright">
+				Copyright @ PV. Desenvolvedor 2020. Todos os direitos reservados.
+			</p>
+		</footer>
+		<!-- JQUERY	 -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script>
+			$(".btn-menu").click(function(){
+				$(".menu").show();
+			});
+			$(".btn-close").click(function(){
+				$(".menu").hide(); 
+			});
+		</script>
+	</body>
+</html>
